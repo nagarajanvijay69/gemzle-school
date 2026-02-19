@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="./assets/school.jpg">
+    <title>Gemzle School</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Outfit:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ysabeau+SC:wght@1..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="/" class="hero-title">Gemzle School</a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>..............................</p>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Gemzle School</h1>
+        <p>Empowering students for a brighter future</p>
+        <button onclick="showMessage()" class="apply-btn">Apply Now</button>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Our School</h2>
+        <p class="about-pg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui natus quo, at facere eveniet
+            rerum incidunt,
+            placeat nobis laudantium est doloremque expedita, sequi repudiandae odit odio? Ab voluptate quaerat
+            molestias.</p>
+        <div class="about-showcase">
+            <div class="showcase">
+                <img src="./assets/sports.webp" alt="sports img">
+                <p>
+                    We believe sports build teamwork, discipline, and leadership skills along with physical fitness. 🏆
+                </p>
+            </div>
+            <div class="showcase">
+                <img src="./assets/class.jpg" alt="digital class">
+                <p>
+                    This helps students understand concepts clearly through interactive and technology-based teaching.
+                    💻📚
+                </p>
+            </div>
+            <div class="showcase">
+                <img src="./assets/professional.jpeg" alt="professional staffs">
+                <p>
+                    They provide quality education with care, guidance, and a commitment to academic excellence. 👩‍🏫📘
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <h2>Excellence in Education</h2>
+        <p>Transforming Lives Through Quality Learning & Professional Development</p>
+        <button onclick="scrollToContact()" class="featured-btn">Learn More</button>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="course-box">Primary</div>
+        <div class="course-box">Middle School</div>
+        <div class="course-box">High School</div>
+    </section>
+
+    <!-- Opportunities Section -->
+    <section class="opportunities">
+        <h2>Shape Your Future</h2>
+        <p>Join our community of passionate learners and unlock endless opportunities for growth and success</p>
+        <button onclick="showMessage()" class="opportunities-btn">Start Your Journey</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div>
+            <section class="contact-section">
+                <h2>Contact Us</h2>
+
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="tel" id="phone" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <!-- School Info -->
+                <div class="footer-box">
+                    <h3>Gemzle School</h3>
+                    <p>Providing quality education and shaping bright futures.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-box">
+                    <h3>Contact Info</h3>
+                    <p>Email: gemzleschool@gmail.com</p>
+                    <p>Phone: +91 9999999999</p>
+                    <p>Location: Tirunelveli</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Gemzle School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
