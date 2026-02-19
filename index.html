@@ -19,23 +19,25 @@
     <nav class="navbar">
         <a href="/" class="hero-title">Gemzle School</a>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#opportunities">Opportunities</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         <p>..............................</p>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <h1>Welcome to Gemzle School</h1>
         <p>Empowering students for a brighter future</p>
-        <button onclick="showMessage()" class="apply-btn">Apply Now</button>
+        <button class="apply-btn">Apply Now</button>
     </section>
 
     <!-- About Section -->
-    <section class="about">
+    <section class="about" id="about">
         <h2>About Our School</h2>
         <p class="about-pg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui natus quo, at facere eveniet
             rerum incidunt,
@@ -65,28 +67,67 @@
     </section>
 
     <!-- Featured Section -->
-    <section class="featured">
+    <section class="featured" id="featured">
         <h2>Excellence in Education</h2>
         <p>Transforming Lives Through Quality Learning & Professional Development</p>
         <button onclick="scrollToContact()" class="featured-btn">Learn More</button>
     </section>
 
+
     <!-- Courses Section -->
-    <section class="courses">
-        <div class="course-box">Primary</div>
-        <div class="course-box">Middle School</div>
-        <div class="course-box">High School</div>
+    <section class="courses" id="courses">
+        <h2 class="courses-title">Our Academic Programs</h2>
+        <section class="courses" id="courses">
+            <div class="course-box">Primary</div>
+            <div class="course-box">Middle School</div>
+            <div class="course-box">High School</div>
+        </section>
+
+        <div class="courses-container">
+            <div class="course-card">
+                <h3>Primary School</h3>
+                <p>Classes I – V focused on building strong academic foundations and creative skills.</p>
+                <ul>
+                    <li>Activity-Based Learning</li>
+                    <li>Smart Classrooms</li>
+                    <li>Creative Development</li>
+                </ul>
+            </div>
+
+            <div class="course-card">
+                <h3>Middle School</h3>
+                <p>Classes VI – VIII enhancing analytical thinking and subject mastery.</p>
+                <ul>
+                    <li>Science Lab Training</li>
+                    <li>Computer Education</li>
+                    <li>Project-Based Learning</li>
+                </ul>
+            </div>
+
+            <div class="course-card">
+                <h3>High School</h3>
+                <p>Classes IX – XII preparing students for board exams and competitive success.</p>
+                <ul>
+                    <li>Advanced Subject Coaching</li>
+                    <li>Career Guidance</li>
+                    <li>Exam Preparation Support</li>
+                </ul>
+            </div>
+
+        </div>
     </section>
 
+
+
     <!-- Opportunities Section -->
-    <section class="opportunities">
+    <section class="opportunities" id="opportunities">
         <h2>Shape Your Future</h2>
         <p>Join our community of passionate learners and unlock endless opportunities for growth and success</p>
         <button onclick="showMessage()" class="opportunities-btn">Start Your Journey</button>
     </section>
 
     <!-- Contact Section -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div>
             <section class="contact-section">
                 <h2>Contact Us</h2>
@@ -129,10 +170,12 @@
                 <div class="footer-box">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#opportunities">Opportunities</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
 
